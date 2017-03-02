@@ -14,12 +14,15 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 
 
 #warning Define RSS_PUB_DATE when done
+#define HTML_ONLY(...) -->__VA_ARGS__<!--
 
 
 BOILERPLATE(Manifest Kaszystyczny, Manifest Kaszystyczny [PL], WORD_COUNT_SCRIPT CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")))
 
 
 #include "manifesto/intro.html"
+#include "manifesto/ch01-ryz-a-konsumenci.html"
+#include "manifesto/bibliography.html"
 
 
 WORD_COUNTER_END()
