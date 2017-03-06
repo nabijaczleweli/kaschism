@@ -25,6 +25,6 @@ BOILERPLATE(Manifest Kaszystyczny, Manifest Kaszystyczny [PL], WORD_COUNT_SCRIPT
 #include "manifesto/bibliography.html"
 
 
-WORD_COUNTER_END()
+WORD_COUNTER_END_NON_ENGLISH()
 WRITING_END()
 BOILERPLATE_END()

@@ -82,7 +82,7 @@
 
 #define BOILERPLATE_END()                                                                                                     \
     <hr />                                                                                                                    \
-    Creative text licensed under <a href="/kaschism/LICENSE-CREATIVE">CC-BY-SA 4.0</a>.                                     \
+    Creative text licensed under <a href="/kaschism/LICENSE-CREATIVE">CC-BY-SA 4.0</a>.                                       \
     <hr />                                                                                                                    \
     This page is open-source, you can find it at <a href="https://github.com/nabijaczleweli/kaschism">GitHub</a>,             \
     and contributt and/or tell us how you hate a couple of teenagers' evening project.<!--'-->                                \
@@ -91,6 +91,6 @@
     Automatically generated with COMPILER_NAME version COMPILER_VERSION'<!--'-->s C preprocessor on DATE_TIME from FILE_NAME. \
     CI_LINK_FOOTER_PART                                                                                                       \
     <hr />                                                                                                                    \
-    <a href="/kaschism/feed.xml">RSS feed</a>                                                                               \
+    <a href="/kaschism/feed.xml">RSS feed</a>                                                                                 \
   </body>                                                                                                                     \
 </html>

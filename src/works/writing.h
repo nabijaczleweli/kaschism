@@ -12,10 +12,9 @@
 #pragma once
 
 
-#define WORD_COUNT_SCRIPT                                                                                  \
-  <script type="text/javascript" src="//cdn.rawgit.com/tehsis/normalize/master/normalize.min.js"></script> \
-  <script type="text/javascript" src="/capitalism/assets/syllable.js"></script>                            \
-  <script type="text/javascript" src="/capitalism/assets/pluralize.js"></script>                           \
+#define WORD_COUNT_SCRIPT                                                         \
+  <script type="text/javascript" src="/capitalism/assets/syllable.js"></script>   \
+  <script type="text/javascript" src="/capitalism/assets/pluralize.js"></script>  \
   <script type="text/javascript" src="/capitalism/assets/word_count.js"></script>
 
 #define BOOK_URL_SETTER_SCRIPT <script type="text/javascript" src="/capitalism/assets/book_setter.js"></script>
@@ -32,6 +31,11 @@
     <hr />                                         \
     <span id="word_count">0</span> words,          \
     <span id="syllable_count">0</span> syllables,  \
+    <span id="character_count">0</span> characters.
+
+#define WORD_COUNTER_END_NON_ENGLISH()             \
+    <hr />                                         \
+    <span id="word_count">0</span> words,          \
     <span id="character_count">0</span> characters.
 
 #define WRITING_CUSTOM_NAME_END(what)        \
