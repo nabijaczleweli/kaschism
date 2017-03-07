@@ -1,7 +1,9 @@
 <!--
-nabijaczleweli.xyz (c) by nabijaczleweli@gmail.com (nabijaczleweli)
+nabijaczleweli.xyz/kaschism (c) by nabijaczleweli@gmail.com (nabijaczleweli),
+                                   stanislaw@gorski.be (Stanisław Górski),
+                               and krzysztof1400@gmail.com (Krzysztof Żelazny)
 ​
-nabijaczleweli.xyz is licensed under a
+nabijaczleweli.xyz/kaschism is licensed under a
 Creative Commons Attribution 4.0 International License.
 ​
 You should have received a copy of the license along with this
