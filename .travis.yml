@@ -19,25 +19,27 @@ install:
   - mkdir -p "$HOME/bin"
   - curl -SL "https://github.com/nabijaczleweli/gen-epub-book.cpp/releases/download/$GEN_EPUB_BOOK_VERSION/gen-epub-book-$GEN_EPUB_BOOK_VERSION" -o "$HOME/bin/gen-epub-book"
 
-before_script:
-  - (
-      echo "Update kaschism for commits $TRAVIS_COMMIT_RANGE";
-      echo;
-      git log "$TRAVIS_COMMIT_RANGE" --pretty=oneline 2>/dev/null || echo "$TRAVIS_COMMIT_MESSAGE";
-    ) > $TRAVIS_BUILD_DIR/../DOC_UPDATE_MSG
-  - mkdir -p ~/.ssh && cp gh_rsa ~/.ssh/id_rsa && chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa
-  - git clone -b master "git@github.com:nabijaczleweli/nabijaczleweli.github.io.git" "$TRAVIS_BUILD_DIR-webpage"
-  - mkdir -p "$TRAVIS_BUILD_DIR-webpage/kaschism"
-
 script:
-  - make OUTDIR="../kaschism-webpage/kaschism/"
+  - make OUTDIR="../kaschism/"
 
 after_success:
-  - pushd "$TRAVIS_BUILD_DIR-webpage/"
-  - git config --global user.email "nabijaczleweli@gmail.com"
-  - git config --global user.name "Nabijaczleweli Autouploader Bot"
-  - git config --global push.default simple
-  - git add .
-  - git commit -F ../DOC_UPDATE_MSG
-  - git push
-  - popd
+  - if [ -n "$TRAVIS_PULL_REQUEST" ]; then
+      (
+        echo "Update kaschism for commits $TRAVIS_COMMIT_RANGE";
+        echo;
+        git log "$TRAVIS_COMMIT_RANGE" --pretty=oneline 2>/dev/null || echo "$TRAVIS_COMMIT_MESSAGE";
+      ) > $TRAVIS_BUILD_DIR/../DOC_UPDATE_MSG;
+      mkdir -p ~/.ssh && cp gh_rsa ~/.ssh/id_rsa && chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa;
+      git clone -b master "git@github.com:nabijaczleweli/nabijaczleweli.github.io.git" "$TRAVIS_BUILD_DIR-webpage";
+      mkdir -p "$TRAVIS_BUILD_DIR-webpage/kaschism";
+      pushd "$TRAVIS_BUILD_DIR-webpage/";
+      rm -rf kaschism/;
+      mv ../kaschism/ .;
+      git config --global user.email "nabijaczleweli@gmail.com";
+      git config --global user.name "Nabijaczleweli Autouploader Bot";
+      git config --global push.default simple;
+      git add .;
+      git commit -F ../DOC_UPDATE_MSG;
+      git push;
+      popd;
+    fi
