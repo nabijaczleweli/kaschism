@@ -27,13 +27,14 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 	we came up with the name and the general idea shortly followed.
 </p>
 
-<p id="works">
+<div id="works">
 	The general ideas, a.k.a. the <a href="#works" class="todo">"Kaschist Manifesto"</a>.<br />
 	Collateral works:
 	<ul>
 		<li><span class="todo">Also TODO</span></li>
 	</ul>
-</p>
+	<p></p>
+</div>
 
 <div id="authors">
 	The original authors and proponents are three and what a triumvirate it is:
