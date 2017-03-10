@@ -40,7 +40,8 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 	<ul>
 		<li><a href="mailto:stanislaw@gorski.be">Stanisław Ryszard Górski</a> –
 		    ur. 28 października 2000 roku, Polski działacz Kaszystyczny, jeden z autorów "Manifestu Kaszystycznego"</li>
-		<li><a href="mailto:krzysztof1400@gmail.com">Krzysztof "Fe" Żelazny</a> – <span class="todo">TODO</span></li>
+		<li><a href="mailto:krzysztof1400@gmail.com">Krzysztof Szymon Andrzej "Fe" Żelazny</a> –
+		    Polski działacz Kaszystyczny propagujący dwie sprzeczne idee – lenistwo i perfekcjonizm</li>
 		<li><a href="/">Jędrzej "nabijaczleweli" Łopaciński</a> –
 		    wspieracz i oryginator wielu ruchów socjoekonomicznych, jeden z autorów "Manifestu Kaszystycznego", główny edytor</li>
 	</ul>
