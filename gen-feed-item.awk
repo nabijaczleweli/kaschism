@@ -49,8 +49,8 @@ BEGIN {
 	everything = ""
 }
 
-/ \(c\) by / {
-	author = gensub(/.* \(c\) by (.*)/, "\\1", "g")
+/ \(c\) by /,/​/ {
+	author = author gensub(/​/, "", "g", gensub(/[[:space:]]+(.*)/, " \\1", "g", gensub(/.* \(c\) by (.*)/, "\\1", "g")))
 }
 
 /^BOILERPLATE\(.*\)/ {
@@ -81,6 +81,6 @@ END {
 	print "      <author>" author "</author>"
 	print "      <pubDate>" pubDate "</pubDate>"
 	print "      <guid>https://nabijaczleweli.xyz/kaschism/" filename "</guid>"
-	print "      <source url=\"https://nabijaczleweli.xyz/kaschism/feed.xml\">nabijaczleweli's page</source>"
+	print "      <source url=\"https://nabijaczleweli.xyz/kaschism/feed.xml\">kaschism</source>"
 	print "    </item>"
 }
