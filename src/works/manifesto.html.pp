@@ -11,6 +11,7 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 -->
 
 
+#include "bibliography.h"
 #include "../common.h"
 #include "writing.h"
 
