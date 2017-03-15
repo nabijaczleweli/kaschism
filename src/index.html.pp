@@ -19,7 +19,7 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 
 
 <p id="definition-short">
-	<strong>Kaschism</strong> is an econo-social movement concerning the overuse of rice and other groat-like plants intead of groats themselves.
+	<strong>Kaschism</strong> is an econo-social movement concerning the overuse of rice and other groat-like plants instead of groats themselves.
 </p>
 
 <p id="origin">
@@ -47,6 +47,11 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 		<li><a href="/">Jędrzej "nabijaczleweli" Łopaciński</a> –
 		    wspieracz i oryginator wielu ruchów socjoekonomicznych, jeden z autorów "Manifestu Kaszystycznego", główny edytor</li>
 	</ul>
+	<p>
+		Pictured here are the founding fathers in Fe's bathroom on 14.03.2017:<br />
+		<img src="/kaschism/assets/founding_fathers.jpg" alt="Photo of the founding fathers" style="width: 100%;" /><br />
+		From the left: Górski, Żelazny, Łopaciński.
+	</p>
 </div>
 
 
