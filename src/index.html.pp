@@ -50,7 +50,7 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 	<p>
 		Pictured here are the founding fathers in Fe's bathroom on 14.03.2017:<br />
 		<img src="/kaschism/assets/founding_fathers.jpg" alt="Photo of the founding fathers" style="width: 100%;" /><br />
-		From the left: Górski, Żelazny, Łopaciński.
+		From the left: Górski, Żelazny, and Łopaciński.
 	</p>
 </div>
 

@@ -20,7 +20,9 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #define HTML_ONLY(...) -->__VA_ARGS__<!--
 
 
-BOILERPLATE(Manifest Kaszystyczny, Manifest Kaszystyczny [PL], WORD_COUNT_SCRIPT CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")))
+#define WORD_BREAKER <link href="/kaschism/assets/pagebreak.css" rel="stylesheet" />
+#define ADDITIONAL_DATA WORD_COUNT_SCRIPT CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) WORD_BREAKER
+BOILERPLATE(Manifest Kaszystyczny, Manifest Kaszystyczny [PL], ADDITIONAL_DATA)
 
 
 #include "manifesto/intro.html"
