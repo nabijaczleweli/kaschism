@@ -7,7 +7,6 @@ cache:
 env:
   global:
     - PATH=$HOME/calibre:$HOME/bin:$PATH
-    - GEN_EPUB_BOOK_VERSION=v0.3.1
 
 before_install:
   - openssl aes-256-cbc -K $encrypted_081938a76f01_key -iv $encrypted_081938a76f01_iv -in gh_rsa.enc -out gh_rsa -d
@@ -17,6 +16,7 @@ install:
   - ebook-convert --version
   -
   - mkdir -p "$HOME/bin"
+  - export GEN_EPUB_BOOK_VERSION="v$(curl -SsL https://crates.io/api/v1/crates/gen-epub-book | sed 's/,/\n/g' | grep max_version | sed -e 's/"//g' -e 's/.*://')"
   - curl -SL "https://github.com/nabijaczleweli/gen-epub-book.rs/releases/download/$GEN_EPUB_BOOK_VERSION/gen-epub-book.rs-$GEN_EPUB_BOOK_VERSION" -o "$HOME/bin/gen-epub-book"
   - chmod +x "$HOME/bin/gen-epub-book"
 
