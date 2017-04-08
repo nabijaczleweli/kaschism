@@ -32,7 +32,8 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 	The general ideas, a.k.a. the <a href="works/manifesto.html">"Kaschist Manifesto"</a> [PL].<br />
 	Collateral works:
 	<ul>
-		<li><span class="todo">Also TODO</span></li>
+		<li><a href="works/milletcake.html">Sushi the Polish way</a></li>
+		<li><span class="todo">More: also TODO</span></li>
 	</ul>
 	<p></p>
 </div>
@@ -48,7 +49,7 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 		    wspieracz i oryginator wielu ruchów socjoekonomicznych, jeden z autorów "Manifestu Kaszystycznego", główny edytor</li>
 	</ul>
 	<p>
-		Pictured here are the founding fathers in Fe's bathroom on 14.03.2017:<br />
+		Pictured here are the founding fathers in Fe's bathroom on 14.03.2017:<!--'--><br />
 		<img src="/kaschism/assets/founding_fathers.jpg" alt="Photo of the founding fathers" style="width: 100%;" /><br />
 		From the left: Górski, Żelazny, and Łopaciński.
 	</p>
