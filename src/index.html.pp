@@ -14,8 +14,7 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #include "common.h"
 
 
-#define TODO_JS <script type="text/javascript" src="/kaschism/assets/todo.js"></script>
-BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad，details inside, TODO_JS)
+BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad，details inside)
 
 
 <p id="definition-short">
@@ -36,8 +35,8 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 		<li><a href="works/sushi.html">Sushi the Polish way</a> [PL] — a delightful recipe for an even delightfuler dignified feast</li>
 		<li><a href="works/speech.html">Opening speech of the 2017 annual local farmers' of Durham, Yorkshire, Cumbria, Northumberland,<!--'-->
 		                                and southeast Scotland meeting</a></li>
-		<li><span class="todo">More: also TODO</span></li>
 	</ul>
+	<a href="works/">Full list</a> of all works related to kaschism.
 	<p></p>
 </div>
 
