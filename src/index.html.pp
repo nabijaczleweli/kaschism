@@ -32,7 +32,8 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 	The general ideas, a.k.a. the <a href="works/manifesto.html">"Kaschist Manifesto"</a> [PL].<br />
 	Collateral works:
 	<ul>
-		<li><a href="works/milletcake.html">Sushi the Polish way</a></li>
+		<li><a href="works/milletcake.html">Millet cheesecake</a> [PL] — a shortened biography of a man and a delicious cake to follow up</li>
+		<li><a href="works/sushi.html">Sushi the Polish way</a> [PL] — a delightful recipe for an even delightfuler dignified feast</li>
 		<li><span class="todo">More: also TODO</span></li>
 	</ul>
 	<p></p>

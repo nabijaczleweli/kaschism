@@ -12,21 +12,27 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 
 
 #include "../common.h"
+#include "writing.h"
 
 
-BOILERPLATE(Works, Kaschist works)
+#warning Define RSS_PUB_DATE when done
+#define EBOOK_ONLY(...)
 
 
-<div>
-	<p></p>
-	Works on, by and about Kaschism:
-	<ul>
-		<li><a href="manifesto.html">"Kaschist Manifesto"</a> [PL] – the general ideas, how to implement them, and a call to the people</li>
-		<li><a href="milletcake.html">Millet cheesecake</a> [PL] – a shortened biography of a man and a delicious cake to follow up</li>
-		<li><a href="sushi.html">Sushi the Polish way</a> [PL] – a delightful recipe for an even delightfuler dignified feast</li>
-	</ul>
-	<p></p>
-</div>
+BOILERPLATE(Sushi po Polsku, Sushi po Polsku [PL], CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) PAGE_BREAK_STYLE)
+
+<style>
+#include "sushi/spacing.css"
+</style>
 
 
+#include "sushi/titlepage.html"
+#include "sushi/maki/ingredients.html"
+#include "sushi/maki/prep.html"
+#include "sushi/nigiri/ingredients.html"
+#include "sushi/nigiri/prep.html"
+#include "sushi/spices.html"
+
+
+WRITING_END()
 BOILERPLATE_END()
