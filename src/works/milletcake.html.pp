@@ -18,7 +18,7 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #define RSS_PUB_DATE Sun, 09 Apr 2017 23:42:17 +0200
 
 
-BOILERPLATE(Sernik Jaglany, Sernik Jaglany [PL], CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")))
+BOILERPLATE(Sernik Jaglany, Sernik Jaglany [PL], CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) PAGE_BREAK_STYLE)
 
 
 #include "milletcake/titlepage.html"

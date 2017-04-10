@@ -14,6 +14,8 @@
 #pragma once
 
 
+#define PAGE_BREAK_STYLE <link href="/kaschism/assets/pagebreak.css" rel="stylesheet" />
+
 #define WORD_COUNT_SCRIPT                                                         \
   <script type="text/javascript" src="/capitalism/assets/syllable.js"></script>   \
   <script type="text/javascript" src="/capitalism/assets/pluralize.js"></script>  \

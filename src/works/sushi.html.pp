@@ -15,7 +15,7 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #include "writing.h"
 
 
-#warning Define RSS_PUB_DATE when done
+#define RSS_PUB_DATE Mon, 10 Apr 2017 23:24:31 +0200
 #define EBOOK_ONLY(...)
 
 
