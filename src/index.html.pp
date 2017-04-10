@@ -34,6 +34,8 @@ BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad
 	<ul>
 		<li><a href="works/milletcake.html">Millet cheesecake</a> [PL] — a shortened biography of a man and a delicious cake to follow up</li>
 		<li><a href="works/sushi.html">Sushi the Polish way</a> [PL] — a delightful recipe for an even delightfuler dignified feast</li>
+		<li><a href="works/speech.html">Opening speech of the 2017 annual local farmers' of Durham, Yorkshire, Cumbria, Northumberland,<!--'-->
+		                                and southeast Scotland meeting</a></li>
 		<li><span class="todo">More: also TODO</span></li>
 	</ul>
 	<p></p>

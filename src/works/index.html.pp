@@ -24,6 +24,8 @@ BOILERPLATE(Works, Kaschist works)
 		<li><a href="manifesto.html">"Kaschist Manifesto"</a> [PL] – the general ideas, how to implement them, and a call to the people</li>
 		<li><a href="milletcake.html">Millet cheesecake</a> [PL] – a shortened biography of a man and a delicious cake to follow up</li>
 		<li><a href="sushi.html">Sushi the Polish way</a> [PL] – a delightful recipe for an even delightfuler dignified feast</li>
+		<li><a href="speech.html">Opening speech of the 2017 annual local farmers' of Durham, Yorkshire, Cumbria, Northumberland,<!--'-->
+		                          and southeast Scotland meeting</a></li>
 	</ul>
 	<p></p>
 </div>
