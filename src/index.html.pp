@@ -14,10 +14,11 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #include "common.h"
 
 
-BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad，details inside)
+BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad，details inside, <link href="/kaschism/assets/toplevel-logo.css" rel="stylesheet" />)
 
 
 <p id="definition-short">
+	<img src="/kaschism/assets/logo.png" id="logo" />
 	<strong>Kaschism</strong> is an econo-social movement concerning the overuse of rice and other groat-like plants instead of groats themselves.
 </p>
 
