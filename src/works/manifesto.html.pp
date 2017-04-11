@@ -16,14 +16,16 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #include "writing.h"
 
 
-#warning Define RSS_PUB_DATE when done
+#define RSS_PUB_DATE Tue, 11 Apr 2017 22:11:31 +0200
 #define HTML_ONLY(...) -->__VA_ARGS__<!--
 
 
-#define WORD_BREAKER <link href="/kaschism/assets/pagebreak.css" rel="stylesheet" />
-#define ADDITIONAL_DATA WORD_COUNT_SCRIPT CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) WORD_BREAKER
+#define ADDITIONAL_DATA WORD_COUNT_SCRIPT CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) PAGE_BREAK_STYLE
 BOILERPLATE(Manifest Kaszystyczny, Manifest Kaszystyczny [PL], ADDITIONAL_DATA)
 
+
+<p></p>
+<center><img src="/kaschism/assets/logo.png" alt="Kaschism logo" style="border-radius: 3.90625%;" /></center>
 
 #include "manifesto/intro.html"
 #include "manifesto/ch01-ryz-a-konsumenci.html"
