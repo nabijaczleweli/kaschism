@@ -24,7 +24,7 @@ script:
   - make OUTDIR="../out/"
 
 after_success:
-  - if [ -n "$TRAVIS_PULL_REQUEST" ]; then
+  - if [ -n "$TRAVIS_PULL_REQUEST" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
       (
         echo "Update kaschism for commits $TRAVIS_COMMIT_RANGE";
         echo;
