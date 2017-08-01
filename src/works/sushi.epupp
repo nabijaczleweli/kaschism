@@ -1,5 +1,6 @@
 Name: Sushi po Polsku
 
+Include: indent.css
 Include: sushi/spacing.css
 
 Content: sushi/titlepage.html

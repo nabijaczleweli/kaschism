@@ -24,6 +24,11 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 BOILERPLATE(Manifest Kaszystyczny, Manifest Kaszystyczny [PL], ADDITIONAL_DATA)
 
 
+<style>
+#include "indent.css"
+</style>
+
+
 <p></p>
 <center><img src="/kaschism/assets/logo.png" alt="Kaschism logo" style="border-radius: 3.90625%;" /></center>
 

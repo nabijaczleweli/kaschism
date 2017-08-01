@@ -1,6 +1,8 @@
 Name: Manifest Kaszystyczny
 Cover: ../../assets/logo.png
 
+Include: indent.css
+
 Content: manifesto/intro.html
 Content: manifesto/ch01-ryz-a-konsumenci.html
 Content: manifesto/bibliography.html
