@@ -41,11 +41,11 @@
 #define WORD_COUNTER_END() _WORD_COUNTER_END(<span id="syllable_count">0</span> syllables,)
 #define WORD_COUNTER_END_NON_ENGLISH() _WORD_COUNTER_END()
 
-#define WRITING_CUSTOM_NAME_END(what)        \
-    <hr />                                   \
-    Get what in ePub format                  \
-    <a href="#" id="epub_book_link">here</a> \
-    or in MOBI format                        \
-    <a href="#" id="mobi_book_link">here</a>.
+#define WRITING_CUSTOM_NAME_END(what)            \
+    <hr />                                       \
+    Get what in                                  \
+    <a href="#" id="epub_book_link">ePub</a>,    \
+    <a href="#" id="mobi_book_link">MOBI</a>, or \
+    <a href="#" id="pdf_book_link">PDF</a>.
 
 #define WRITING_END() WRITING_CUSTOM_NAME_END(this)

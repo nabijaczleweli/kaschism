@@ -47,7 +47,7 @@ clean :
 
 assets : $(patsubst %,$(OUTDIR)%,$(ASSETS))
 preprocess : $(patsubst src/%.pp,$(OUTDIR)%,$(PREPROCESS_SOURCES))
-books : $(patsubst src/%.epupp,$(OUTDIR)%.epub,$(BOOK_SOURCES)) $(patsubst src/%.epupp,$(OUTDIR)%.mobi,$(BOOK_SOURCES))
+books : $(foreach l,$(patsubst src/%.epupp,%,$(BOOK_SOURCES)),$(OUTDIR)$(l).epub $(OUTDIR)$(l).mobi $(OUTDIR)$(l).pdf)
 rss : $(OUTDIR)feed.xml
 
 
@@ -66,6 +66,11 @@ $(OUTDIR)%.epub : src/%.epupp
 	$(GEN_EPUB_BOOK) $^ $@
 
 $(OUTDIR)%.mobi : $(OUTDIR)%.epub
+	@mkdir -p $(dir $@)
+	$(CALIBRE_CONVERT) "$^" "$@" > /dev/null 2>&1
+
+$(OUTDIR)%.pdf : $(OUTDIR)%.epub
+	@mkdir -p $(dir $@)
 	$(CALIBRE_CONVERT) "$^" "$@" > /dev/null 2>&1
 
 $(OUTDIR)assets/% : assets/%
