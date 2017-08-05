@@ -14,7 +14,8 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #include "common.h"
 
 
-BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad，details inside, <link href="/kaschism/assets/toplevel-logo.css" rel="stylesheet" />)
+#define LOGO_LINK <link href="/kaschism/assets/toplevel-logo.css" rel="stylesheet" />
+BOILERPLATE(What，why and when is Kaschism, Kaschism – Groats good，rice bad，details inside, en-GB, LOGO_LINK)
 
 
 <p id="definition-short">

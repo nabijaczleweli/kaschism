@@ -19,7 +19,7 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #define HTML_ONLY(...) -->__VA_ARGS__<!--
 
 
-BOILERPLATE(Sernik Jaglany, Sernik Jaglany [PL], CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) PAGE_BREAK_STYLE WORD_COUNT_SCRIPT)
+BOILERPLATE(Sernik Jaglany, Sernik Jaglany [PL], pl, CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) PAGE_BREAK_STYLE WORD_COUNT_SCRIPT)
 
 
 <style>

@@ -19,7 +19,7 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #define EBOOK_ONLY(...)
 
 
-BOILERPLATE(Sushi po Polsku, Sushi po Polsku [PL], CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) PAGE_BREAK_STYLE WORD_COUNT_SCRIPT)
+BOILERPLATE(Sushi po Polsku, Sushi po Polsku [PL], pl, CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) PAGE_BREAK_STYLE WORD_COUNT_SCRIPT)
 
 <style>
 #include "indent.css"

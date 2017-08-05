@@ -14,7 +14,7 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 #include "../common.h"
 
 
-BOILERPLATE(Works, Kaschist works)
+BOILERPLATE(Works, Kaschist works, en-GB)
 
 
 <div>

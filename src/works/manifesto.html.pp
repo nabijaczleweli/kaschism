@@ -21,7 +21,7 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 
 
 #define ADDITIONAL_DATA WORD_COUNT_SCRIPT CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) PAGE_BREAK_STYLE
-BOILERPLATE(Manifest Kaszystyczny, Manifest Kaszystyczny [PL], ADDITIONAL_DATA)
+BOILERPLATE(Manifest Kaszystyczny, Manifest Kaszystyczny [PL], pl, ADDITIONAL_DATA)
 
 
 <style>

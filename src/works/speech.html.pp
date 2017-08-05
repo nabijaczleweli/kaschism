@@ -21,7 +21,7 @@ work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 
 
 #define ADDITIONAL_DATA WORD_COUNT_SCRIPT CUSTOM_BOOK_URL_SETTER_SCRIPT(document.URL.replace(/\.html$/, "")) PAGE_BREAK_STYLE
-BOILERPLATE(Opening speech of the 2017 annual local farmersꞌ of Durham，Yorkshire，Cumbria，Northumberland，and southeast Scotland meeting, Opening speech of the 2017 annual local farmersꞌ of Durham，Yorkshire，Cumbria，Northumberland，and southeast Scotland meeting, ADDITIONAL_DATA)
+BOILERPLATE(Opening speech of the 2017 annual local farmersꞌ of Durham，Yorkshire，Cumbria，Northumberland，and southeast Scotland meeting, Opening speech of the 2017 annual local farmersꞌ of Durham，Yorkshire，Cumbria，Northumberland，and southeast Scotland meeting, en-GB, ADDITIONAL_DATA)
 
 
 <style>

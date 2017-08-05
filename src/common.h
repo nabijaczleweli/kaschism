@@ -64,9 +64,9 @@
     <meta name="theme-color" content="#ffffff">
 
 
-#define BOILERPLATE(pagename, description, ...)                         \
+#define BOILERPLATE(pagename, description, language, ...)               \
 <!DOCTYPE html>                                                         \
-<html lang="en">                                                        \
+<html lang=STR(language)>                                               \
   <head>                                                                \
     <meta charset="utf-8">                                              \
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">               \
