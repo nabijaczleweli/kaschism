@@ -82,17 +82,18 @@
   </head>                                                               \
   <body>
 
-#define BOILERPLATE_END()                                                                                                     \
-    <hr />                                                                                                                    \
-    Creative text licensed under <a href="/kaschism/LICENSE-CREATIVE">CC-BY-SA 4.0</a>.                                       \
-    <hr />                                                                                                                    \
-    This page is open-source, you can find it at <a href="https://github.com/nabijaczleweli/kaschism">GitHub</a>,             \
-    and contributt and/or tell us how you hate a couple of teenagers' evening project.<!--'-->                                \
-    Maybe you'll even call us nazis or something because you can't stand bloody puns? Who knows if not you!                   \
-    <hr />                                                                                                                    \
-    Automatically generated with COMPILER_NAME version COMPILER_VERSION'<!--'-->s C preprocessor on DATE_TIME from FILE_NAME. \
-    CI_LINK_FOOTER_PART                                                                                                       \
-    <hr />                                                                                                                    \
-    <a href="/kaschism/feed.xml">RSS feed</a>                                                                                 \
-  </body>                                                                                                                     \
+#define BOILERPLATE_END()                                                                                         \
+    <hr />                                                                                                        \
+    Creative text licensed under <a href="/kaschism/LICENSE-CREATIVE">CC-BY-SA 4.0</a>.                           \
+    <hr />                                                                                                        \
+    This page is open-source, you can find it at <a href="https://github.com/nabijaczleweli/kaschism">GitHub</a>, \
+    and contributt and/or tell us how you hate a couple of teenagers' evening project.<!--'-->                    \
+    Maybe you'll even call us nazis or something because you can't stand bloody puns? Who knows if not you!       \
+    <hr />                                                                                                        \
+    Automatically generated with COMPILER_NAME COMPILER_VERSION'<!--'-->s C preprocessor on DATE_TIME from        \
+    <a href=STR(httpsCOLON_SLASH_SLASHgithub.com/nabijaczleweli/kaschism/blob/master/FILE_NAME)>FILE_NAME</a>.    \
+    CI_LINK_FOOTER_PART                                                                                           \
+    <hr />                                                                                                        \
+    <a href="/kaschism/feed.xml">RSS feed</a>                                                                     \
+  </body>                                                                                                         \
 </html>
