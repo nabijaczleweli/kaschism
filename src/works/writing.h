@@ -45,7 +45,8 @@
     <hr />                                       \
     Get what in                                  \
     <a href="#" id="epub_book_link">ePub</a>,    \
-    <a href="#" id="mobi_book_link">MOBI</a>, or \
+    <a href="#" id="mobi_book_link">MOBI</a>,    \
+    <a href="#" id="azw3_book_link">AZW3</a>, or \
     <a href="#" id="pdf_book_link">PDF</a>.
 
 #define WRITING_END() WRITING_CUSTOM_NAME_END(this)
