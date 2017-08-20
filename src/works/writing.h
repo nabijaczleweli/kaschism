@@ -16,12 +16,12 @@
 
 #define PAGE_BREAK_STYLE <link href="/kaschism/assets/pagebreak.css" rel="stylesheet" />
 
-#define WORD_COUNT_SCRIPT                                                         \
-  <script type="text/javascript" src="/capitalism/assets/syllable.js"></script>   \
-  <script type="text/javascript" src="/capitalism/assets/pluralize.js"></script>  \
-  <script type="text/javascript" src="/capitalism/assets/word_count.js"></script>
+#define WORD_COUNT_SCRIPT                                                      \
+  <script type="text/javascript" src="/content/assets/syllable.js"></script>   \
+  <script type="text/javascript" src="/content/assets/pluralize.js"></script>  \
+  <script type="text/javascript" src="/content/assets/word_count.js"></script>
 
-#define BOOK_URL_SETTER_SCRIPT <script type="text/javascript" src="/capitalism/assets/book_setter.js"></script>
+#define BOOK_URL_SETTER_SCRIPT <script type="text/javascript" src="/content/assets/book_setter.js"></script>
 #define CUSTOM_BOOK_URL_SETTER_SCRIPT(url_code) \
   <script type="text/javascript">               \
     function custom_book_url() {                \

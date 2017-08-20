@@ -75,7 +75,7 @@
     <meta name="description" content=#description>                      \
     <title>pagename — kaschism</title>                                  \
                                                                         \
-    <link href="/capitalism/assets/common.css" rel="stylesheet" />      \
+    <link href="/content/assets/common.css" rel="stylesheet" />         \
     <link href="/kaschism/assets/column.css" rel="stylesheet" />        \
     __VA_ARGS__                                                         \
     ICONS_HEADER_PART                                                   \
