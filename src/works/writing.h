@@ -14,21 +14,15 @@
 #pragma once
 
 
+#include "../util.h"
+
+
 #define PAGE_BREAK_STYLE <link href="/kaschism/assets/pagebreak.css" rel="stylesheet" />
 
 #define WORD_COUNT_SCRIPT                                                      \
   <script type="text/javascript" src="/content/assets/syllable.js"></script>   \
   <script type="text/javascript" src="/content/assets/pluralize.js"></script>  \
   <script type="text/javascript" src="/content/assets/word_count.js"></script>
-
-#define BOOK_URL_SETTER_SCRIPT <script type="text/javascript" src="/content/assets/book_setter.js"></script>
-#define CUSTOM_BOOK_URL_SETTER_SCRIPT(url_code) \
-  <script type="text/javascript">               \
-    function custom_book_url() {                \
-      return (url_code);                        \
-    }                                           \
-  </script>                                     \
-  BOOK_URL_SETTER_SCRIPT
 
 
 #define _WORD_COUNTER_END(...)                        \
@@ -41,12 +35,13 @@
 #define WORD_COUNTER_END() _WORD_COUNTER_END(<span id="syllable_count">0</span> syllables,)
 #define WORD_COUNTER_END_NON_ENGLISH() _WORD_COUNTER_END()
 
-#define WRITING_CUSTOM_NAME_END(what)            \
-    <hr />                                       \
-    Get what in                                  \
-    <a href="#" id="epub_book_link">ePub</a>,    \
-    <a href="#" id="mobi_book_link">MOBI</a>,    \
-    <a href="#" id="azw3_book_link">AZW3</a>, or \
-    <a href="#" id="pdf_book_link">PDF</a>.
+#define WRITING_CUSTOM_NAME_STUB_END(what, stub)  \
+    <hr />                                        \
+    Get what in                                   \
+    <a href=STR(/kaschism/stub.epub)>ePub</a>,    \
+    <a href=STR(/kaschism/stub.mobi)>MOBI</a>,    \
+    <a href=STR(/kaschism/stub.azw3)>AZW3</a>, or \
+    <a href=STR(/kaschism/stub.pdf)>PDF</a>.
 
+#define WRITING_CUSTOM_NAME_END(what) WRITING_CUSTOM_NAME_STUB_END(what, FILE_NAME_STUB)
 #define WRITING_END() WRITING_CUSTOM_NAME_END(this)
