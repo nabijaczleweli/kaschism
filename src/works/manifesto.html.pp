@@ -34,7 +34,6 @@ BOILERPLATE(Manifest Kaszystyczny, Manifest Kaszystyczny [PL], pl, WORD_COUNT_SC
 
 #include "manifesto/intro.html"
 #include "manifesto/ch01-ryz-a-konsumenci.html"
-#include "manifesto/ch02-konsumenci-a-kaszysci.html"
 #include "manifesto/bibliography.html"
 
 
