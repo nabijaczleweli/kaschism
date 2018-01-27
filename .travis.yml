@@ -1,5 +1,6 @@
 language: generic
 sudo: false
+dist: precise
 cache:
   directories:
     - /tmp/calibre-installer-cache
